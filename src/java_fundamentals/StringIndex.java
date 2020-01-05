@@ -3,7 +3,7 @@ package java_fundamentals;
 public class StringIndex {
     public static void main(String[] args)
     {
-        String firstName = "Safwaan";
+        String firstName = "Safwaan ";
         String lastname = "Ahmed";
         System.out.println("Full Name = " + firstName + " " + lastname );
         // 1 Get the character at positions for first name and last name
@@ -18,7 +18,7 @@ public class StringIndex {
 
         // 3 full name using concat methord
         String fullName = firstName.concat(lastname);
-        System.out.println("Concat using concat() method :" + fullName);
+        System.out.println("Concat using concat() method : " + fullName);
 
         // 4 string contains the specified sequence of char values.
         boolean isitSafwaan = fullName.contains("Safwaan");
